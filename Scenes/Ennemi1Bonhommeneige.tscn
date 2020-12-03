@@ -1,0 +1,93 @@
+[gd_scene load_steps=39 format=2]
+
+[ext_resource path="res://Animation/Frame_Ennemie_Walk/BonhommedeneigeBigger5.png" type="Texture" id=1]
+[ext_resource path="res://Animation/Frame_Ennemie_Attack/BonhommedeneigeBigger11.png" type="Texture" id=2]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger27.png" type="Texture" id=3]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger22.png" type="Texture" id=4]
+[ext_resource path="res://Animation/Frame_Ennemie_Attack/BonhommedeneigeBigger14.png" type="Texture" id=5]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger25.png" type="Texture" id=6]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger30.png" type="Texture" id=7]
+[ext_resource path="res://Animation/Frame_Ennemie_Attack/BonhommedeneigeBigger13.png" type="Texture" id=8]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger19.png" type="Texture" id=9]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger24.png" type="Texture" id=10]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger34.png" type="Texture" id=11]
+[ext_resource path="res://Animation/Frame_Ennemie_idle/BonhommedeneigeBigger3.png" type="Texture" id=12]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger28.png" type="Texture" id=13]
+[ext_resource path="res://Animation/Frame_Ennemie_Walk/BonhommedeneigeBigger6.png" type="Texture" id=14]
+[ext_resource path="res://Animation/Frame_Ennemie_Walk/BonhommedeneigeBigger7.png" type="Texture" id=15]
+[ext_resource path="res://Animation/Frame_Ennemie_Attack/BonhommedeneigeBigger16.png" type="Texture" id=16]
+[ext_resource path="res://Animation/Frame_Ennemie_Attack/BonhommedeneigeBigger15.png" type="Texture" id=17]
+[ext_resource path="res://Animation/Frame_Ennemie_Attack/BonhommedeneigeBigger8.png" type="Texture" id=18]
+[ext_resource path="res://Animation/Frame_Ennemie_idle/BonhommedeneigeBigger2.png" type="Texture" id=19]
+[ext_resource path="res://Animation/Frame_Ennemie_Attack/BonhommedeneigeBigger9.png" type="Texture" id=20]
+[ext_resource path="res://Animation/Frame_Ennemie_Walk/BonhommedeneigeBigger4.png" type="Texture" id=21]
+[ext_resource path="res://Animation/Frame_Ennemie_Attack/BonhommedeneigeBigger12.png" type="Texture" id=22]
+[ext_resource path="res://Animation/Frame_Ennemie_Attack/BonhommedeneigeBigger18.png" type="Texture" id=23]
+[ext_resource path="res://Animation/Frame_Ennemie_Attack/BonhommedeneigeBigger17.png" type="Texture" id=24]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger20.png" type="Texture" id=25]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger29.png" type="Texture" id=26]
+[ext_resource path="res://Animation/Frame_Ennemie_Attack/BonhommedeneigeBigger10.png" type="Texture" id=27]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger23.png" type="Texture" id=28]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger31.png" type="Texture" id=29]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger32.png" type="Texture" id=30]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger21.png" type="Texture" id=31]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger33.png" type="Texture" id=32]
+[ext_resource path="res://Animation/Frame_Ennemie_idle/BonhommedeneigeBigger1.png" type="Texture" id=33]
+[ext_resource path="res://Animation/Frame_Ennemie_Dead/BonhommedeneigeBigger26.png" type="Texture" id=34]
+[ext_resource path="res://Scripts/Ennemi1Bonhommeneige.gd" type="Script" id=35]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 33 ), ExtResource( 19 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ), ExtResource( 25 ), ExtResource( 31 ), ExtResource( 4 ), ExtResource( 28 ), ExtResource( 10 ), ExtResource( 6 ), ExtResource( 34 ), ExtResource( 3 ), ExtResource( 13 ), ExtResource( 26 ), ExtResource( 7 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 32 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "Dead",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 1 ), ExtResource( 14 ), ExtResource( 15 ) ],
+"loop": true,
+"name": "Walk",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 18 ), ExtResource( 20 ), ExtResource( 27 ), ExtResource( 2 ), ExtResource( 22 ), ExtResource( 8 ), ExtResource( 5 ), ExtResource( 17 ), ExtResource( 16 ), ExtResource( 24 ), ExtResource( 23 ) ],
+"loop": true,
+"name": "Attack",
+"speed": 15.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 36, 59 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 27, 47 )
+
+[node name="Ennemi1" type="KinematicBody2D"]
+script = ExtResource( 35 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -2, 0 )
+frames = SubResource( 1 )
+animation = "Attack"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -8, -4 )
+shape = SubResource( 2 )
+
+[node name="hitbox" type="Area2D" parent="." groups=[
+"enemy",
+]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+position = Vector2( -8, -9 )
+shape = SubResource( 3 )
+
+[node name="TimerDied" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+[connection signal="area_entered" from="hitbox" to="." method="_on_hitbox_area_entered"]
+[connection signal="area_exited" from="hitbox" to="." method="_on_hitbox_area_exited"]
+[connection signal="timeout" from="TimerDied" to="." method="_on_TimerDied_timeout"]

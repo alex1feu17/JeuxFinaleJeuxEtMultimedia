@@ -1,0 +1,408 @@
+[gd_scene load_steps=97 format=2]
+
+[ext_resource path="res://Animation/Frame_Personnage_Accroupie/PersonnageAccroupi_sheetV2.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Player.gd" type="Script" id=2]
+[ext_resource path="res://Animation/Frame_Fire/PresonnageTestAnimation15.png" type="Texture" id=3]
+[ext_resource path="res://Animation/Frame_Fire/PresonnageTestAnimation16.png" type="Texture" id=4]
+[ext_resource path="res://Animation/Frame_Fire/PresonnageTestAnimation18.png" type="Texture" id=5]
+[ext_resource path="res://Animation/Frame_Fire/PresonnageTestAnimation20.png" type="Texture" id=6]
+[ext_resource path="res://Animation/Frame_Fire/PresonnageTestAnimation21.png" type="Texture" id=7]
+[ext_resource path="res://Animation/Frame_Fire/PresonnageTestAnimation22.png" type="Texture" id=8]
+[ext_resource path="res://Animation/Frame_Fire/PresonnageTestAnimation17.png" type="Texture" id=9]
+[ext_resource path="res://Animation/Frame_Fire/PresonnageTestAnimation23.png" type="Texture" id=10]
+[ext_resource path="res://Animation/Frame_Fire/PresonnageTestAnimation24.png" type="Texture" id=11]
+[ext_resource path="res://Animation/Frame_Fire/PresonnageTestAnimation19.png" type="Texture" id=12]
+[ext_resource path="res://Animation/Frame_Relever/PresonnageTestAnimation25.png" type="Texture" id=13]
+[ext_resource path="res://Animation/Frame_Relever/PresonnageTestAnimation26.png" type="Texture" id=14]
+[ext_resource path="res://Animation/Frame_Relever/PresonnageTestAnimation27.png" type="Texture" id=15]
+[ext_resource path="res://Animation/Frame_Relever/PresonnageTestAnimation28.png" type="Texture" id=16]
+[ext_resource path="res://Animation/Frame_Personnage_Accroupie/PersonnageAccroupi_sheetV3.png" type="Texture" id=17]
+[ext_resource path="res://Animation/Frame_Personnage_Accroupie/PersonnageAccroupi_sheetV4.png" type="Texture" id=18]
+[ext_resource path="res://Animation/Frame_Personnage_Accroupie/PersonnageAccroupi_sheetV6.png" type="Texture" id=19]
+[ext_resource path="res://Animation/Frame_Fire/PresonnageTestAnimation14.png" type="Texture" id=20]
+[ext_resource path="res://Animation/Frame_Personnage_Accroupie/PersonnageAccroupi_sheetV5.png" type="Texture" id=21]
+[ext_resource path="res://Animation/Frame_Personnage_Accroupie/PersonnageAccroupi_sheetV7.png" type="Texture" id=22]
+[ext_resource path="res://Animation/Frame_Personnage_Accroupie/PersonnageAccroupi_sheetV8.png" type="Texture" id=23]
+[ext_resource path="res://Animation/Frame_Relever/PresonnageTestAnimation29.png" type="Texture" id=24]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation1.png" type="Texture" id=25]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation2.png" type="Texture" id=26]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation3.png" type="Texture" id=27]
+[ext_resource path="res://Animation/Frame_Relever/PresonnageTestAnimation30.png" type="Texture" id=28]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation4.png" type="Texture" id=29]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation42.png" type="Texture" id=30]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation41.png" type="Texture" id=31]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation5.png" type="Texture" id=32]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation51.png" type="Texture" id=33]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation50.png" type="Texture" id=34]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation40.png" type="Texture" id=35]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation35.png" type="Texture" id=36]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation45.png" type="Texture" id=37]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation10.png" type="Texture" id=38]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation46.png" type="Texture" id=39]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation47.png" type="Texture" id=40]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation13.png" type="Texture" id=41]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation53.png" type="Texture" id=42]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation49.png" type="Texture" id=43]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation9.png" type="Texture" id=44]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation54.png" type="Texture" id=45]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation57.png" type="Texture" id=46]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied1.png" type="Texture" id=47]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied3.png" type="Texture" id=48]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation8.png" type="Texture" id=49]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation6.png" type="Texture" id=50]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation11.png" type="Texture" id=51]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation33.png" type="Texture" id=52]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation32.png" type="Texture" id=53]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation34.png" type="Texture" id=54]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation38.png" type="Texture" id=55]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied6.png" type="Texture" id=56]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation37.png" type="Texture" id=57]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation43.png" type="Texture" id=58]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation36.png" type="Texture" id=59]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation7.png" type="Texture" id=60]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation48.png" type="Texture" id=61]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation55.png" type="Texture" id=62]
+[ext_resource path="res://Animation/Frame_Reload/PresonnageTestAnimation12.png" type="Texture" id=63]
+[ext_resource path="res://Animation/Frame_Walk_Avant/PresonnageTestAnimation39.png" type="Texture" id=64]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation52.png" type="Texture" id=65]
+[ext_resource path="res://Animation/Frame_Walk_Arriere/PresonnageTestAnimation56.png" type="Texture" id=66]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied4.png" type="Texture" id=67]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied7.png" type="Texture" id=68]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied9.png" type="Texture" id=69]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied2.png" type="Texture" id=70]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied8.png" type="Texture" id=71]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied5.png" type="Texture" id=72]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied10.png" type="Texture" id=73]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied14.png" type="Texture" id=74]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied16.png" type="Texture" id=75]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied11.png" type="Texture" id=76]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied12.png" type="Texture" id=77]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied13.png" type="Texture" id=78]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied17.png" type="Texture" id=79]
+[ext_resource path="res://Animation/Frame_Died/PersonnageDied15.png" type="Texture" id=80]
+[ext_resource path="res://ProgressBar/LifeBarProgress.png" type="Texture" id=81]
+[ext_resource path="res://ProgressBar/LifeBarCastle.png" type="Texture" id=82]
+[ext_resource path="res://Fonts/Default.tres" type="DynamicFont" id=83]
+[ext_resource path="res://StyleButtonMenuPrincipale/SelectedButtonTheme.tres" type="StyleBox" id=84]
+[ext_resource path="res://StyleButtonMenuPrincipale/Not_Selected_Button.tres" type="StyleBox" id=85]
+[ext_resource path="res://Fonts/Horta demo.otf" type="DynamicFontData" id=86]
+[ext_resource path="res://Background/GameMenu.png" type="Texture" id=87]
+[ext_resource path="res://Scripts/GUI.gd" type="Script" id=88]
+[ext_resource path="res://Scenes/GameWin.tscn" type="PackedScene" id=89]
+[ext_resource path="res://Scenes/GameOver.tscn" type="PackedScene" id=90]
+[ext_resource path="res://Background/Particule_tirer.png" type="Texture" id=91]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": false,
+"name": "idle",
+"speed": 0.0
+}, {
+"frames": [ ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 29 ), ExtResource( 32 ), ExtResource( 50 ), ExtResource( 60 ), ExtResource( 49 ), ExtResource( 44 ), ExtResource( 38 ), ExtResource( 51 ), ExtResource( 63 ), ExtResource( 41 ) ],
+"loop": false,
+"name": "Reload",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 24 ), ExtResource( 28 ) ],
+"loop": false,
+"name": "Relever",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 20 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 9 ), ExtResource( 5 ), ExtResource( 12 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 11 ) ],
+"loop": false,
+"name": "Fire",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 37 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 61 ), ExtResource( 43 ), ExtResource( 34 ), ExtResource( 33 ), ExtResource( 65 ), ExtResource( 42 ), ExtResource( 45 ), ExtResource( 62 ), ExtResource( 66 ), ExtResource( 46 ) ],
+"loop": true,
+"name": "Walk_Arriere",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 47 ), ExtResource( 70 ), ExtResource( 48 ), ExtResource( 67 ), ExtResource( 72 ), ExtResource( 56 ), ExtResource( 68 ), ExtResource( 71 ), ExtResource( 69 ), ExtResource( 73 ), ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 74 ), ExtResource( 80 ), ExtResource( 75 ), ExtResource( 79 ) ],
+"loop": false,
+"name": "Died",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 53 ), ExtResource( 52 ), ExtResource( 54 ), ExtResource( 36 ), ExtResource( 59 ), ExtResource( 57 ), ExtResource( 55 ), ExtResource( 64 ), ExtResource( 35 ), ExtResource( 31 ), ExtResource( 30 ), ExtResource( 58 ) ],
+"loop": true,
+"name": "Walk_Avant",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 1 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ) ],
+"loop": false,
+"name": "Accroupie",
+"speed": 12.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 18, 54 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 36, 57 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 20
+font_data = ExtResource( 86 )
+
+[sub_resource type="ParticlesMaterial" id=5]
+render_priority = 14
+flag_disable_z = true
+gravity = Vector3( 100, 0, 0 )
+initial_velocity = 100.0
+initial_velocity_random = 1.0
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+
+[node name="Player" type="KinematicBody2D"]
+position = Vector2( 44, -12 )
+z_index = 1
+script = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -30, 0 )
+shape = SubResource( 2 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="Position2D" type="Position2D" parent="."]
+position = Vector2( 50, -10 )
+
+[node name="hitbox" type="Area2D" parent="." groups=[
+"allie",
+]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+position = Vector2( -29, 4 )
+shape = SubResource( 3 )
+
+[node name="GUI" type="CanvasLayer" parent="."]
+script = ExtResource( 88 )
+
+[node name="Hero" type="Label" parent="GUI"]
+margin_left = 16.0
+margin_top = 23.0
+margin_right = 160.0
+margin_bottom = 74.0
+custom_fonts/font = ExtResource( 83 )
+text = "Heros life"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="life" type="TextureProgress" parent="GUI"]
+margin_left = 170.0
+margin_top = 23.0
+margin_right = 270.0
+margin_bottom = 73.0
+value = 100.0
+texture_under = ExtResource( 82 )
+texture_progress = ExtResource( 81 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GameMenu" type="Control" parent="GUI"]
+visible = false
+margin_left = -1.0
+margin_top = 1.0
+margin_right = 39.0
+margin_bottom = 41.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="GUI/GameMenu"]
+anchor_left = 5.75
+anchor_top = 4.75
+anchor_right = 18.25
+anchor_bottom = 11.0
+margin_left = -1.52588e-05
+margin_bottom = -3.05176e-05
+texture = ExtResource( 87 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUI/GameMenu"]
+margin_left = 383.0
+margin_top = 227.0
+margin_right = 527.0
+margin_bottom = 268.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GameMenu" type="Label" parent="GUI/GameMenu/VBoxContainer"]
+margin_right = 144.0
+margin_bottom = 41.0
+custom_fonts/font = ExtResource( 83 )
+text = "Game Menu"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="GUI/GameMenu/VBoxContainer"]
+margin_top = 45.0
+margin_right = 144.0
+margin_bottom = 65.0
+rect_min_size = Vector2( 0, 20 )
+
+[node name="Restart" type="Button" parent="GUI/GameMenu/VBoxContainer"]
+margin_top = 69.0
+margin_right = 144.0
+margin_bottom = 90.0
+custom_styles/hover = ExtResource( 84 )
+custom_styles/pressed = ExtResource( 84 )
+custom_styles/focus = ExtResource( 84 )
+custom_styles/normal = ExtResource( 85 )
+custom_fonts/font = SubResource( 4 )
+text = "Restart"
+
+[node name="Surrender" type="Button" parent="GUI/GameMenu/VBoxContainer"]
+margin_top = 94.0
+margin_right = 144.0
+margin_bottom = 115.0
+custom_styles/hover = ExtResource( 84 )
+custom_styles/pressed = ExtResource( 84 )
+custom_styles/focus = ExtResource( 84 )
+custom_styles/normal = ExtResource( 85 )
+custom_fonts/font = SubResource( 4 )
+text = "Surrender"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Option" type="Button" parent="GUI/GameMenu/VBoxContainer"]
+margin_top = 119.0
+margin_right = 144.0
+margin_bottom = 140.0
+custom_styles/hover = ExtResource( 84 )
+custom_styles/pressed = ExtResource( 84 )
+custom_styles/focus = ExtResource( 84 )
+custom_styles/normal = ExtResource( 85 )
+custom_fonts/font = SubResource( 4 )
+text = "Option"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Exit" type="Button" parent="GUI/GameMenu/VBoxContainer"]
+margin_top = 144.0
+margin_right = 144.0
+margin_bottom = 165.0
+custom_styles/hover = ExtResource( 84 )
+custom_styles/pressed = ExtResource( 84 )
+custom_styles/focus = ExtResource( 84 )
+custom_styles/normal = ExtResource( 85 )
+custom_fonts/font = SubResource( 4 )
+text = "Exit"
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Castle" type="Label" parent="GUI"]
+margin_left = 13.8181
+margin_top = 61.9608
+margin_right = 150.818
+margin_bottom = 107.961
+custom_fonts/font = ExtResource( 83 )
+text = "Castle Life"
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="CastleLifeBar" type="TextureProgress" parent="GUI"]
+margin_left = 173.818
+margin_top = 53.9608
+margin_right = 293.818
+margin_bottom = 103.961
+value = 100.0
+texture_under = ExtResource( 82 )
+texture_progress = ExtResource( 81 )
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="EnemyCastle" type="Label" parent="GUI"]
+margin_left = 784.0
+margin_top = 21.0
+margin_right = 1005.0
+margin_bottom = 67.0002
+custom_fonts/font = ExtResource( 83 )
+text = "Enemy Castle life"
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="EnemyCastleLife" type="TextureProgress" parent="GUI"]
+margin_left = 665.0
+margin_top = 16.0
+margin_right = 785.0
+margin_bottom = 66.0002
+value = 100.0
+texture_under = ExtResource( 82 )
+texture_progress = ExtResource( 81 )
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="GameOver" parent="GUI" instance=ExtResource( 90 )]
+visible = false
+
+[node name="GameWin" parent="GUI" instance=ExtResource( 89 )]
+visible = false
+
+[node name="TimerReload" type="Timer" parent="."]
+one_shot = true
+
+[node name="TimerRespawn" type="Timer" parent="."]
+wait_time = 15.0
+one_shot = true
+
+[node name="Position2DInverse" type="Position2D" parent="."]
+position = Vector2( -106, -9 )
+
+[node name="Particles2D" type="Particles2D" parent="."]
+position = Vector2( 118, -22 )
+emitting = false
+amount = 50
+process_material = SubResource( 5 )
+texture = ExtResource( 91 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Particles2DInverse" type="Particles2D" parent="."]
+position = Vector2( -126, 5 )
+rotation = -3.14159
+emitting = false
+amount = 50
+process_material = SubResource( 5 )
+texture = ExtResource( 91 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="ParticuleTimer" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="body_entered" from="hitbox" to="." method="_on_hitbox_body_entered"]
+[connection signal="body_exited" from="hitbox" to="." method="_on_hitbox_body_exited"]
+[connection signal="pressed" from="GUI/GameMenu/VBoxContainer/Restart" to="GUI" method="_on_Restart_pressed"]
+[connection signal="pressed" from="GUI/GameMenu/VBoxContainer/Surrender" to="GUI" method="_on_Surrender_pressed"]
+[connection signal="pressed" from="GUI/GameMenu/VBoxContainer/Option" to="GUI" method="_on_Option_pressed"]
+[connection signal="pressed" from="GUI/GameMenu/VBoxContainer/Exit" to="GUI" method="_on_Exit_pressed"]
+[connection signal="timeout" from="TimerRespawn" to="." method="_on_TimerRespawn_timeout"]
+[connection signal="timeout" from="ParticuleTimer" to="." method="_on_ParticuleTimer_timeout"]

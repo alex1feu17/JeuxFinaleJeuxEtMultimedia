@@ -1,0 +1,598 @@
+{ "frames": [
+   {
+    "filename": "PresonnageTestAnimation1 0.png",
+    "frame": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 1.png",
+    "frame": { "x": 250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 2.png",
+    "frame": { "x": 500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 3.png",
+    "frame": { "x": 750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 4.png",
+    "frame": { "x": 1000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 5.png",
+    "frame": { "x": 1250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 6.png",
+    "frame": { "x": 1500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 7.png",
+    "frame": { "x": 1750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 8.png",
+    "frame": { "x": 2000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 9.png",
+    "frame": { "x": 2250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 10.png",
+    "frame": { "x": 2500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 11.png",
+    "frame": { "x": 2750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 12.png",
+    "frame": { "x": 3000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 13.png",
+    "frame": { "x": 3250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 14.png",
+    "frame": { "x": 3500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 15.png",
+    "frame": { "x": 3750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 16.png",
+    "frame": { "x": 4000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 17.png",
+    "frame": { "x": 4250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 18.png",
+    "frame": { "x": 4500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 19.png",
+    "frame": { "x": 4750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 20.png",
+    "frame": { "x": 5000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 21.png",
+    "frame": { "x": 5250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 22.png",
+    "frame": { "x": 5500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 23.png",
+    "frame": { "x": 5750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 24.png",
+    "frame": { "x": 6000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 25.png",
+    "frame": { "x": 6250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 26.png",
+    "frame": { "x": 6500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 27.png",
+    "frame": { "x": 6750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 28.png",
+    "frame": { "x": 7000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 29.png",
+    "frame": { "x": 7250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 30.png",
+    "frame": { "x": 7500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 31.png",
+    "frame": { "x": 7750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 32.png",
+    "frame": { "x": 8000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 33.png",
+    "frame": { "x": 8250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 34.png",
+    "frame": { "x": 8500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 35.png",
+    "frame": { "x": 8750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 36.png",
+    "frame": { "x": 9000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 37.png",
+    "frame": { "x": 9250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 38.png",
+    "frame": { "x": 9500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 39.png",
+    "frame": { "x": 9750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 40.png",
+    "frame": { "x": 10000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 41.png",
+    "frame": { "x": 10250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 42.png",
+    "frame": { "x": 10500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 43.png",
+    "frame": { "x": 10750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 44.png",
+    "frame": { "x": 11000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 45.png",
+    "frame": { "x": 11250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 46.png",
+    "frame": { "x": 11500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 47.png",
+    "frame": { "x": 11750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 48.png",
+    "frame": { "x": 12000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 49.png",
+    "frame": { "x": 12250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 50.png",
+    "frame": { "x": 12500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 51.png",
+    "frame": { "x": 12750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 52.png",
+    "frame": { "x": 13000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 53.png",
+    "frame": { "x": 13250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 54.png",
+    "frame": { "x": 13500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 55.png",
+    "frame": { "x": 13750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 56.png",
+    "frame": { "x": 14000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 57.png",
+    "frame": { "x": 14250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 58.png",
+    "frame": { "x": 14500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 59.png",
+    "frame": { "x": 14750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 60.png",
+    "frame": { "x": 15000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 61.png",
+    "frame": { "x": 15250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 62.png",
+    "frame": { "x": 15500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 63.png",
+    "frame": { "x": 15750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "PresonnageTestAnimation1 64.png",
+    "frame": { "x": 16000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.9-x64",
+  "image": "./Output/PresonnageTestAnimation1.png",
+  "format": "RGBA8888",
+  "size": { "w": 16250, "h": 125 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}

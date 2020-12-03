@@ -1,0 +1,92 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Fonts/Default.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Fonts/OptionMenuMusicLabel.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Background/GameMenu.png" type="Texture" id=3]
+[ext_resource path="res://Scripts/OptionMenu.gd" type="Script" id=4]
+[ext_resource path="res://StyleButtonMenuPrincipale/Not_Selected_Button.tres" type="StyleBox" id=5]
+[ext_resource path="res://StyleButtonMenuPrincipale/SelectedButtonTheme.tres" type="StyleBox" id=6]
+[ext_resource path="res://Fonts/Horta demo.otf" type="DynamicFontData" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+font_data = ExtResource( 7 )
+
+[node name="OptionMenu" type="Control"]
+anchor_left = 0.354
+anchor_top = 0.361
+anchor_right = 0.537
+anchor_bottom = 0.69
+margin_left = -363.496
+margin_top = -216.6
+margin_right = -502.888
+margin_bottom = -370.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 230.0
+margin_top = 191.0
+margin_right = 730.0
+margin_bottom = 441.0
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 404.0
+margin_top = 221.0
+margin_right = 499.0
+margin_bottom = 262.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Options" type="Label" parent="VBoxContainer"]
+margin_right = 95.0
+margin_bottom = 41.0
+custom_fonts/font = ExtResource( 1 )
+text = "Options"
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+margin_top = 45.0
+margin_right = 95.0
+margin_bottom = 45.0
+
+[node name="Music" type="Label" parent="VBoxContainer"]
+margin_top = 49.0
+margin_right = 95.0
+margin_bottom = 74.0
+custom_fonts/font = ExtResource( 2 )
+text = "Music"
+align = 1
+
+[node name="HSlider" type="HSlider" parent="VBoxContainer"]
+margin_top = 78.0
+margin_right = 95.0
+margin_bottom = 94.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+min_value = -24.0
+max_value = 0.0
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Exit" type="Button" parent="VBoxContainer"]
+margin_top = 98.0
+margin_right = 95.0
+margin_bottom = 119.0
+custom_styles/hover = ExtResource( 6 )
+custom_styles/pressed = ExtResource( 6 )
+custom_styles/focus = ExtResource( 6 )
+custom_styles/normal = ExtResource( 5 )
+custom_fonts/font = SubResource( 1 )
+text = "Exit"
+__meta__ = {
+"_editor_description_": ""
+}
+[connection signal="pressed" from="VBoxContainer/Exit" to="." method="_on_Exit_pressed"]

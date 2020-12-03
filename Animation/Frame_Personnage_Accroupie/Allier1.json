@@ -1,0 +1,22 @@
+{ "frames": [
+   {
+    "filename": "Allier1.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 100, "h": 100 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 100 },
+    "sourceSize": { "w": 100, "h": 100 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.9-x64",
+  "image": "./Output/Allier1.png",
+  "format": "RGBA8888",
+  "size": { "w": 100, "h": 100 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}

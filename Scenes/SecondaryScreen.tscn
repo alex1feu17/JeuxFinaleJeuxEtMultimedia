@@ -1,0 +1,95 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Background/BackgroundForGame.jpg" type="Texture" id=2]
+[ext_resource path="res://StyleButtonMenuPrincipale/Not_Selected_Button.tres" type="StyleBox" id=3]
+[ext_resource path="res://StyleButtonMenuPrincipale/SelectedButtonTheme.tres" type="StyleBox" id=4]
+[ext_resource path="res://Fonts/Default.tres" type="DynamicFont" id=5]
+[ext_resource path="res://Scripts/SecondaryScreen.gd" type="Script" id=7]
+
+[node name="SecondaryScreen" type="Node2D"]
+script = ExtResource( 7 )
+
+[node name="BackgroudImage" type="Sprite" parent="."]
+position = Vector2( 513.013, 302.687 )
+scale = Vector2( 0.743214, 0.44072 )
+texture = ExtResource( 2 )
+
+[node name="Formation" type="Button" parent="."]
+margin_left = 364.865
+margin_top = 212.563
+margin_right = 692.865
+margin_bottom = 308.563
+focus_neighbour_top = NodePath("../Options")
+focus_neighbour_bottom = NodePath("../Selection_niveaux")
+custom_styles/hover = ExtResource( 4 )
+custom_styles/pressed = ExtResource( 4 )
+custom_styles/focus = ExtResource( 4 )
+custom_styles/normal = ExtResource( 3 )
+custom_fonts/font = ExtResource( 5 )
+text = "Formation"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Selection_niveaux" type="Button" parent="."]
+margin_left = 364.865
+margin_top = 324.362
+margin_right = 692.865
+margin_bottom = 420.362
+focus_neighbour_top = NodePath("../Formation")
+focus_neighbour_bottom = NodePath("../Options")
+custom_styles/hover = ExtResource( 4 )
+custom_styles/pressed = ExtResource( 4 )
+custom_styles/focus = ExtResource( 4 )
+custom_styles/normal = ExtResource( 3 )
+custom_fonts/font = ExtResource( 5 )
+text = "Selection de niveaux"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Options" type="Button" parent="."]
+margin_left = 438.984
+margin_top = 434.552
+margin_right = 606.984
+margin_bottom = 475.552
+focus_neighbour_top = NodePath("../Selection_niveaux")
+focus_neighbour_bottom = NodePath("../Formation")
+custom_styles/hover = ExtResource( 4 )
+custom_styles/pressed = ExtResource( 4 )
+custom_styles/focus = ExtResource( 4 )
+custom_styles/normal = ExtResource( 3 )
+custom_fonts/font = ExtResource( 5 )
+text = "Options"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Exit" type="Button" parent="."]
+margin_left = 441.103
+margin_top = 487.869
+margin_right = 609.103
+margin_bottom = 528.869
+focus_neighbour_top = NodePath("../Selection_niveaux")
+focus_neighbour_bottom = NodePath("../Formation")
+custom_styles/hover = ExtResource( 4 )
+custom_styles/pressed = ExtResource( 4 )
+custom_styles/focus = ExtResource( 4 )
+custom_styles/normal = ExtResource( 3 )
+custom_fonts/font = ExtResource( 5 )
+text = "Exit"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+[connection signal="pressed" from="Formation" to="." method="_on_Formation_pressed"]
+[connection signal="pressed" from="Selection_niveaux" to="." method="_on_Selection_niveaux_pressed"]
+[connection signal="pressed" from="Options" to="." method="_on_Options_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_Exit_pressed"]

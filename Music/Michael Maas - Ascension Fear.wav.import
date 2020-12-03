@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Michael Maas - Ascension Fear.wav-95cd40c3b97e56b4d0419f631b8b925a.sample"
+
+[deps]
+
+source_file="res://Music/Michael Maas - Ascension Fear.wav"
+dest_files=[ "res://.import/Michael Maas - Ascension Fear.wav-95cd40c3b97e56b4d0419f631b8b925a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

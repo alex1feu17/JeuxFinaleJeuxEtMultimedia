@@ -1,0 +1,8 @@
+D:\cegep\session 5\Programmation_jeux_et_multimédia\LaboratoireFinale\.mono\temp\bin\ExportDebug\JeuxVideosGodot.dll
+D:\cegep\session 5\Programmation_jeux_et_multimédia\LaboratoireFinale\.mono\temp\bin\ExportDebug\JeuxVideosGodot.pdb
+D:\cegep\session 5\Programmation_jeux_et_multimédia\LaboratoireFinale\.mono\temp\obj\ExportDebug\JeuxVideosGodot.csprojAssemblyReference.cache
+D:\cegep\session 5\Programmation_jeux_et_multimédia\LaboratoireFinale\.mono\temp\obj\ExportDebug\JeuxVideosGodot.AssemblyInfoInputs.cache
+D:\cegep\session 5\Programmation_jeux_et_multimédia\LaboratoireFinale\.mono\temp\obj\ExportDebug\JeuxVideosGodot.AssemblyInfo.cs
+D:\cegep\session 5\Programmation_jeux_et_multimédia\LaboratoireFinale\.mono\temp\obj\ExportDebug\JeuxVideosGodot.csproj.CoreCompileInputs.cache
+D:\cegep\session 5\Programmation_jeux_et_multimédia\LaboratoireFinale\.mono\temp\obj\ExportDebug\JeuxVideosGodot.dll
+D:\cegep\session 5\Programmation_jeux_et_multimédia\LaboratoireFinale\.mono\temp\obj\ExportDebug\JeuxVideosGodot.pdb

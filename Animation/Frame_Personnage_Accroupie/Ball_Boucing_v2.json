@@ -1,0 +1,257 @@
+{ "frames": [
+   {
+    "filename": "Ball_Boucing_v2 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 1.aseprite",
+    "frame": { "x": 250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 2.aseprite",
+    "frame": { "x": 500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 3.aseprite",
+    "frame": { "x": 750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 4.aseprite",
+    "frame": { "x": 1000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 5.aseprite",
+    "frame": { "x": 1250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 6.aseprite",
+    "frame": { "x": 1500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 7.aseprite",
+    "frame": { "x": 1750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 8.aseprite",
+    "frame": { "x": 2000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 9.aseprite",
+    "frame": { "x": 2250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 10.aseprite",
+    "frame": { "x": 2500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 11.aseprite",
+    "frame": { "x": 2750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 12.aseprite",
+    "frame": { "x": 3000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 13.aseprite",
+    "frame": { "x": 3250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 14.aseprite",
+    "frame": { "x": 3500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 15.aseprite",
+    "frame": { "x": 3750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 16.aseprite",
+    "frame": { "x": 4000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 17.aseprite",
+    "frame": { "x": 4250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 18.aseprite",
+    "frame": { "x": 4500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 19.aseprite",
+    "frame": { "x": 4750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 20.aseprite",
+    "frame": { "x": 5000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 21.aseprite",
+    "frame": { "x": 5250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 22.aseprite",
+    "frame": { "x": 5500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 23.aseprite",
+    "frame": { "x": 5750, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 24.aseprite",
+    "frame": { "x": 6000, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 25.aseprite",
+    "frame": { "x": 6250, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   },
+   {
+    "filename": "Ball_Boucing_v2 26.aseprite",
+    "frame": { "x": 6500, "y": 0, "w": 250, "h": 125 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 125 },
+    "sourceSize": { "w": 250, "h": 125 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.9-x64",
+  "image": "./Output/Ball_Boucing_v2.png",
+  "format": "RGBA8888",
+  "size": { "w": 6750, "h": 125 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Ball_Bouncing", "from": 0, "to": 26, "direction": "forward" }
+  ]
+ }
+}

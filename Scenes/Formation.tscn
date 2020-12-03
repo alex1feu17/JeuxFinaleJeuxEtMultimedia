@@ -1,0 +1,60 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Fonts/Map.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Background/Formation.png" type="Texture" id=2]
+[ext_resource path="res://StyleButtonMenuPrincipale/Not_Selected_Button.tres" type="StyleBox" id=3]
+[ext_resource path="res://StyleButtonMenuPrincipale/SelectedButtonTheme.tres" type="StyleBox" id=4]
+[ext_resource path="res://Scripts/Formation.gd" type="Script" id=5]
+[ext_resource path="res://Fonts/Default.tres" type="DynamicFont" id=6]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 43.1249
+
+[node name="Formation" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 512.955, 301.23 )
+scale = Vector2( 2.04699, 2.40355 )
+texture = ExtResource( 2 )
+
+[node name="Formation" type="Label" parent="."]
+margin_left = 328.839
+margin_top = -2.08705
+margin_right = 654.839
+margin_bottom = 97.9129
+custom_fonts/font = ExtResource( 1 )
+text = "Formation"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Exit" type="Button" parent="."]
+margin_left = 841.555
+margin_top = 547.937
+margin_right = 1009.55
+margin_bottom = 588.937
+focus_neighbour_top = NodePath("../Selection_niveaux")
+focus_neighbour_bottom = NodePath("../Formation")
+custom_styles/hover = ExtResource( 4 )
+custom_styles/pressed = ExtResource( 4 )
+custom_styles/focus = ExtResource( 4 )
+custom_styles/normal = ExtResource( 3 )
+custom_fonts/font = ExtResource( 6 )
+text = "Exit"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Area2D" type="Area2D" parent="."]
+gravity_point = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 257.024, 137.961 )
+shape = SubResource( 1 )
+[connection signal="pressed" from="Exit" to="." method="_on_Exit_pressed"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]

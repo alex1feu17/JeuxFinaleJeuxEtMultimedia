@@ -1,0 +1,22 @@
+{ "frames": [
+   {
+    "filename": "PersonnageAccroupi_sheet.png",
+    "frame": { "x": 0, "y": 0, "w": 250, "h": 875 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 250, "h": 875 },
+    "sourceSize": { "w": 250, "h": 875 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.9-x64",
+  "image": "./Output/PersonnageAccroupi_sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 250, "h": 875 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}

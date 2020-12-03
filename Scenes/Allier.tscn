@@ -1,0 +1,98 @@
+[gd_scene load_steps=32 format=2]
+
+[ext_resource path="res://Animation/Allier1/AnimationDead/Allier24.png" type="Texture" id=1]
+[ext_resource path="res://Animation/Allier1/AnimationDead/Allier25.png" type="Texture" id=2]
+[ext_resource path="res://Animation/Allier1/AnimationDead/Allier20.png" type="Texture" id=3]
+[ext_resource path="res://Animation/Allier1/AnimationDead/Allier21.png" type="Texture" id=4]
+[ext_resource path="res://Animation/Allier1/AnimationDead/Allier26.png" type="Texture" id=5]
+[ext_resource path="res://Animation/Allier1/AnimationDead/Allier23.png" type="Texture" id=6]
+[ext_resource path="res://Animation/Allier1/AnimationDead/Allier22.png" type="Texture" id=7]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier15.png" type="Texture" id=8]
+[ext_resource path="res://Animation/Allier1/Animation_Idle/Allier5.png" type="Texture" id=9]
+[ext_resource path="res://Animation/Allier1/AnimationDead/Allier27.png" type="Texture" id=10]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier19.png" type="Texture" id=11]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier10.png" type="Texture" id=12]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier18.png" type="Texture" id=13]
+[ext_resource path="res://Animation/Allier1/Animation_Idle/Allier6.png" type="Texture" id=14]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier8.png" type="Texture" id=15]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier17.png" type="Texture" id=16]
+[ext_resource path="res://Animation/Allier1/Animation_Idle/Allier7.png" type="Texture" id=17]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier9.png" type="Texture" id=18]
+[ext_resource path="res://Animation/Allier1/Animation_Idle/Allier1.png" type="Texture" id=19]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier16.png" type="Texture" id=20]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier11.png" type="Texture" id=21]
+[ext_resource path="res://Animation/Allier1/Animation_Idle/Allier4.png" type="Texture" id=22]
+[ext_resource path="res://Animation/Allier1/Animation_Idle/Allier3.png" type="Texture" id=23]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier14.png" type="Texture" id=24]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier12.png" type="Texture" id=25]
+[ext_resource path="res://Animation/Allier1/Animation_Attack/Allier13.png" type="Texture" id=26]
+[ext_resource path="res://Animation/Allier1/Animation_Idle/Allier2.png" type="Texture" id=27]
+[ext_resource path="res://Scripts/Allier.gd" type="Script" id=28]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 19 ), ExtResource( 27 ), ExtResource( 23 ), ExtResource( 22 ), ExtResource( 9 ), ExtResource( 14 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 6 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 10 ) ],
+"loop": false,
+"name": "Dead",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 27 ), ExtResource( 19 ), ExtResource( 23 ), ExtResource( 22 ), ExtResource( 9 ), ExtResource( 14 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "Walk",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 15 ), ExtResource( 18 ), ExtResource( 12 ), ExtResource( 21 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 24 ), ExtResource( 8 ), ExtResource( 20 ), ExtResource( 16 ), ExtResource( 13 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "Attack",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 47, 65 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 83, 68 )
+
+[node name="Allier" type="KinematicBody2D" groups=[
+"allie",
+]]
+script = ExtResource( 28 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -48, 0 )
+scale = Vector2( 0.976, 1 )
+frames = SubResource( 1 )
+animation = "Idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=[
+"allie",
+]]
+position = Vector2( -74, 32 )
+shape = SubResource( 2 )
+
+[node name="Area2D" type="Area2D" parent="." groups=[
+"allie",
+]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( -74, 20 )
+rotation = 1.5708
+shape = SubResource( 3 )
+one_way_collision_margin = 0.0
+
+[node name="TimerDied" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="TimerAttack" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]
+[connection signal="area_exited" from="Area2D" to="." method="_on_Area2D_area_exited"]
+[connection signal="timeout" from="TimerDied" to="." method="_on_TimerDied_timeout"]
+[connection signal="timeout" from="TimerAttack" to="." method="_on_TimerAttack_timeout"]

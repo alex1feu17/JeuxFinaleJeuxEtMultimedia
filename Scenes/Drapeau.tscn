@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Animation/Drapeau/Over.png" type="Texture" id=1]
+[ext_resource path="res://Animation/Drapeau/Idle.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/Drapeau.gd" type="Script" id=3]
+[ext_resource path="res://Animation/Drapeau/Finish.png" type="Texture" id=4]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": false,
+"name": "Idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ) ],
+"loop": false,
+"name": "Finish",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 1 ) ],
+"loop": false,
+"name": "Over",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 75.6222, 89.5661 )
+
+[node name="Drapeau" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "Idle"
+
+[node name="Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2( -21.7091, 19.8214 )
+shape = SubResource( 2 )
+[connection signal="input_event" from="Hitbox" to="." method="_on_Hitbox_input_event"]

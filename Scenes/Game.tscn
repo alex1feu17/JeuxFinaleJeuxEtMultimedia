@@ -1,0 +1,736 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Background/ParallaxBackground/Layer4.png" type="Texture" id=2]
+[ext_resource path="res://Scripts/Game.gd" type="Script" id=3]
+[ext_resource path="res://Background/ChateauAllier.png" type="Texture" id=4]
+[ext_resource path="res://Background/ChateauEnnemy.png" type="Texture" id=5]
+[ext_resource path="res://Animation/Allier1/Allier1_formation_icon.png" type="Texture" id=6]
+[ext_resource path="res://Background/ParallaxBackground/Layer3.png" type="Texture" id=7]
+[ext_resource path="res://Background/ParallaxBackground/Layer2.png" type="Texture" id=8]
+[ext_resource path="res://Background/ParallaxBackground/Layer1.png" type="Texture" id=9]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 17.3537, 14.0729 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 24, 80 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 32.1699, 60.3887 )
+
+[sub_resource type="CircleShape2D" id=4]
+radius = 26.9882
+
+[node name="Game" type="Node2D"]
+position = Vector2( 2.18193, 10.0392 )
+script = ExtResource( 3 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 510.941, 302.941 )
+rotating = true
+current = true
+limit_left = 0
+limit_top = 0
+limit_right = 5100
+limit_bottom = 250
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = true
+smoothing_speed = 20.0
+drag_margin_left = 0.9
+drag_margin_top = 0.9
+drag_margin_right = 0.9
+drag_margin_bottom = 0.9
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 260.586, 424.08 )
+
+[node name="Ground00" type="Sprite" parent="."]
+position = Vector2( 93.1881, 518.591 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground00"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground00/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground01" type="Sprite" parent="."]
+position = Vector2( 221.818, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground01"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground01/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground02" type="Sprite" parent="."]
+position = Vector2( 349.818, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground02"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground02/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground03" type="Sprite" parent="."]
+position = Vector2( 477.818, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground03"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground03/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground04" type="Sprite" parent="."]
+position = Vector2( 605.818, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground04"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground04/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground05" type="Sprite" parent="."]
+position = Vector2( 733.818, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground05"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground05/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground06" type="Sprite" parent="."]
+position = Vector2( 861.818, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground06"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground06/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground07" type="Sprite" parent="."]
+position = Vector2( 989.818, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground07"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground07/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground08" type="Sprite" parent="."]
+position = Vector2( 1117.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground08"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground08/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground09" type="Sprite" parent="."]
+position = Vector2( 1245.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground09"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground09/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground10" type="Sprite" parent="."]
+position = Vector2( 1373.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground10"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground10/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground11" type="Sprite" parent="."]
+position = Vector2( 1501.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground11"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground11/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground12" type="Sprite" parent="."]
+position = Vector2( 1629.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground12"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground12/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground13" type="Sprite" parent="."]
+position = Vector2( 1757.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground13"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground13/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground14" type="Sprite" parent="."]
+position = Vector2( 1885.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground14"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground14/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground15" type="Sprite" parent="."]
+position = Vector2( 2013.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground15"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground15/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground16" type="Sprite" parent="."]
+position = Vector2( 2141.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground16"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground16/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground17" type="Sprite" parent="."]
+position = Vector2( 2269.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground17"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground17/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground18" type="Sprite" parent="."]
+position = Vector2( 2397.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground18"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground18/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground19" type="Sprite" parent="."]
+position = Vector2( 2525.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground19"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground19/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground20" type="Sprite" parent="."]
+position = Vector2( 2653.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground20"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground20/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground21" type="Sprite" parent="."]
+position = Vector2( 2781.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground21"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground21/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground22" type="Sprite" parent="."]
+position = Vector2( 2909.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground22"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground22/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground23" type="Sprite" parent="."]
+position = Vector2( 3037.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground23"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground23/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground24" type="Sprite" parent="."]
+position = Vector2( 3165.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground24"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground24/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground25" type="Sprite" parent="."]
+position = Vector2( 3293.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground25"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground25/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground26" type="Sprite" parent="."]
+position = Vector2( 3421.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground26"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground26/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground27" type="Sprite" parent="."]
+position = Vector2( 3549.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground27"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground27/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground28" type="Sprite" parent="."]
+position = Vector2( 3677.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground28"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground28/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground29" type="Sprite" parent="."]
+position = Vector2( 3805.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground29"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground29/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground30" type="Sprite" parent="."]
+position = Vector2( 3933.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground30"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground30/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground31" type="Sprite" parent="."]
+position = Vector2( 4061.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground31"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground31/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground32" type="Sprite" parent="."]
+position = Vector2( 4189.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground32"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground32/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground33" type="Sprite" parent="."]
+position = Vector2( 4317.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground33"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground33/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground34" type="Sprite" parent="."]
+position = Vector2( 4445.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground34"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground34/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground35" type="Sprite" parent="."]
+position = Vector2( 4573.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground35"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground35/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground36" type="Sprite" parent="."]
+position = Vector2( 4701.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground36"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground36/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground37" type="Sprite" parent="."]
+position = Vector2( 4829.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground37"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground37/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground38" type="Sprite" parent="."]
+position = Vector2( 4957.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground38"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground38/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground39" type="Sprite" parent="."]
+position = Vector2( 5085.82, 517.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground39"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground39/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground40" type="Sprite" parent="."]
+position = Vector2( 5173.82, 421.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground40"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground40/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Ground41" type="Sprite" parent="."]
+position = Vector2( 5173.82, 309.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Ground41"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground41/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Wall01" type="Sprite" parent="."]
+position = Vector2( -10.1819, 405.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall01"]
+
+[node name="Wall1Collision" type="CollisionShape2D" parent="Wall01/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="Wall02" type="Sprite" parent="."]
+position = Vector2( -10.1819, 293.961 )
+scale = Vector2( 3.87598, 4.17931 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall02"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall02/StaticBody2D"]
+position = Vector2( -7.64902, 6.97077 )
+shape = SubResource( 1 )
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.2, 1 )
+motion_mirroring = Vector2( 1024, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 104, 264 )
+scale = Vector2( 2.052, 2.132 )
+texture = ExtResource( 2 )
+offset = Vector2( 200, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.25, 1 )
+motion_mirroring = Vector2( 1024, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer2"]
+position = Vector2( 104, 264 )
+scale = Vector2( 2.052, 2.132 )
+texture = ExtResource( 7 )
+offset = Vector2( 200, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.5, 1 )
+motion_mirroring = Vector2( 1024, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer3"]
+position = Vector2( 104, 264 )
+scale = Vector2( 2.052, 2.132 )
+texture = ExtResource( 8 )
+offset = Vector2( 200, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2( 1024, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer4"]
+position = Vector2( 104, 264 )
+scale = Vector2( 2.052, 2.132 )
+texture = ExtResource( 9 )
+offset = Vector2( 200, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CastleBox" type="Area2D" parent="." groups=[
+"castle",
+]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CastleBox" groups=[
+"castle",
+]]
+position = Vector2( 18.4723, 387.091 )
+shape = SubResource( 2 )
+
+[node name="EnemyCastleBox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyCastleBox" groups=[
+"enemycastle",
+]]
+position = Vector2( 5091.94, 421.654 )
+shape = SubResource( 3 )
+
+[node name="ChateauAllier" type="Sprite" parent="."]
+position = Vector2( 310.079, 293.527 )
+scale = Vector2( 1.30968, 1.51792 )
+texture = ExtResource( 4 )
+
+[node name="ChateauEnnemy" type="Sprite" parent="."]
+position = Vector2( 4763.22, 295.138 )
+scale = Vector2( 1.43832, 1.54167 )
+texture = ExtResource( 5 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 108.822, 543.737 )
+scale = Vector2( 1.26041, 1.23347 )
+texture = ExtResource( 6 )
+
+[node name="Area2D" type="Area2D" parent="Sprite"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite/Area2D"]
+position = Vector2( -36.7724, 5.99155 )
+scale = Vector2( 0.793392, 0.81072 )
+shape = SubResource( 4 )
+
+[node name="TimerRespawn" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+autostart = true
+
+[node name="TimerCastle" type="Timer" parent="."]
+one_shot = true
+
+[node name="TimerHeroRespawn" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+
+[node name="Timer_Respawn_Allier" type="Timer" parent="."]
+wait_time = 4.0
+autostart = true
+[connection signal="body_entered" from="CastleBox" to="." method="_on_CastleBox_body_entered"]
+[connection signal="area_entered" from="EnemyCastleBox" to="." method="_on_EnemyCastleBox_area_entered"]
+[connection signal="body_entered" from="EnemyCastleBox" to="." method="_on_EnemyCastleBox_body_entered"]
+[connection signal="input_event" from="Sprite/Area2D" to="." method="_on_Area2D_input_event"]
+[connection signal="timeout" from="TimerRespawn" to="." method="_on_TimerRespawn_timeout"]
+[connection signal="timeout" from="TimerCastle" to="." method="_on_TimerCastle_timeout"]
+[connection signal="timeout" from="TimerHeroRespawn" to="." method="_on_TimerHeroRespawn_timeout"]
+[connection signal="timeout" from="Timer_Respawn_Allier" to="." method="_on_Timer_Respawn_Allier_timeout"]
